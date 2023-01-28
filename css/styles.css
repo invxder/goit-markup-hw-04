@@ -126,10 +126,20 @@ body {
 /* HERO */
 
 .hero {
-    background-color: var(--dark-color);
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    background-color: var(--dark-color);
+}
+
+.bg-hero {
+    background-image: linear-gradient(
+    to right,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title {
@@ -203,6 +213,18 @@ body {
     gap: 24px;
 }
 
+.main-desc .list.item {
+    min-width: 264px;
+}
+
+.thumb {
+    padding: 0;
+    outline: 2px dashed tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .desc-title,
 .team-title {
@@ -225,9 +247,10 @@ body {
     text-align: left;
 }
 
-.main-desc .list.item {
-    min-width: 264px;
-}
+
+
+
+
 
 /* Portfolio / Description of the works of the studio */
 
