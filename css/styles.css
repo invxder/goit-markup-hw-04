@@ -388,6 +388,7 @@ body {
 }
 
 .svg-cust {
+    display: block;
     width: 168px;
     height: 88px;
 }
