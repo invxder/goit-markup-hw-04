@@ -218,37 +218,11 @@ body {
 }
 
 .main-desc .thumb {
-    display: block;
-    width: 264px;
-    height: 112px;
+    display: flex;
     background-color: var(--light-color);
     border-radius: 4px;
     margin-bottom: 8px;
 
-}
-
-.svg-std {
-    display: flex;
-    width: 264px;
-    height: 112px;
-    background-repeat: no-repeat;
-    background-position: left 100px top 24px;
-}
-
-.antenna {
-    background-image: url(../images/antenna.svg);
-}
-
-.clock {
-    background-image: url(../images/clock.svg);
-}
-
-.diagram {
-    background-image: url(../images/diagram.svg);
-}
-
-.astronaut {
-    background-image: url(../images/astronaut.svg);
 }
 
 .desc-title,
