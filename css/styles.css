@@ -313,24 +313,6 @@ body {
     border-radius: 50%;
     
     background-color: var(--primary-brand-color);
-    background-repeat: no-repeat;
-    background-position: left 12px top 12px;
-}
-
-.icon-cont:nth-child(1) {
-    background-image: url(../images/instagram-one.svg);
-}
-
-.icon-cont:nth-child(2) {
-    background-image: url(../images/twitter-one.svg);
-}
-
-.icon-cont:nth-child(3) {
-    background-image: url(../images/facebook-one.svg);
-}
-
-.icon-cont:nth-child(4) {
-    background-image: url(../images/linkedin-one.svg);
 }
 
 /* Customers */
@@ -363,8 +345,6 @@ body {
 
 .svg-cust {
     display: block;
-    width: 168px;
-    height: 88px;
 }
 
 /* portfolio.css */
@@ -523,7 +503,3 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.foot-social .icon {
-    width: 40px;
-    height: 40px;
-}
