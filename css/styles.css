@@ -315,6 +315,11 @@ body {
     background-color: var(--primary-brand-color);
 }
 
+.icon-cont:hover,
+.icon-cont:focus {
+    background-color: var(--secondary-brand-color);
+}
+
 /* Customers */
 
 .main-cust {
@@ -343,8 +348,18 @@ body {
     border-radius: 4px;
 }
 
+.main-cust .item:hover,
+.main-cust .item:focus {
+    border: 1px solid var(--secondary-brand-color);
+}
+
 .svg-cust {
-    display: block;
+    fill: var(--subtle-text);
+}
+
+.svg-cust:hover,
+.svg-cust:focus {
+    fill: var(--secondary-brand-color);
 }
 
 /* portfolio.css */
@@ -408,13 +423,17 @@ body {
     padding: 32px 0 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
+}
+
+.prt-box {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.prt-block:hover,
-.prt-block:focus {
+.prt-box:hover,
+.prt-box:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 
 .prt-title {
     color: var(--dark-color);
@@ -500,6 +519,10 @@ body {
     height: 40px;
 
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
+.foot-social .icon-box:hover,
+.foot-social .icon-box:focus {
+    background-color: var(--success-color);
+}
